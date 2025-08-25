@@ -5,6 +5,8 @@ https://uu.diva-portal.org/smash/record.jsf?dswid=6492&pid=diva2%3A1975073&c=2&s
 Important note: 
 ChatGPT HAS been used as a supporting tool for creating some of the code. This, however, is within the boundaries of what is allowed by Uppsala University (as of the making of the report).
 
+The resulting simulations used in the report are the ones found in /home/simon/results/last_frame/. The reason why they are calles last_frame is because the last frame of the equilibrium simulations were used for the static structures, which were then aligned. All other structures found in the results-folder are either tests or are results of simulations that were conducted in a bad manner.
+
 Below follows a quick explanation of what every script does
 
 PCA.ipynb: 
