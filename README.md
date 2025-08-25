@@ -46,5 +46,8 @@ Plots the mean charge over the entire simulation time for every photon energy si
 run_simulations.py: 
 The MAIN script used to run simulations, given certain parameters inputed in the script. Why is this file a .py-file and not a .ipynb-file? It's simply so that I could run it with nohup (the simulations can take many hours).
 
+scores.ipynb:
+This script is what calculates the scores for multiple different detector distances and number of bins and outputs the grid images where the color represents the score (like the ones found in the results of my thesis). Note here that the user has to input the interval for the distances and number of bins using the numpy arange function. So, if you want to have an interval between 10 and 100, with 10 steps in between, you would input np.arange(10, 110, 10).
+
 Thank you for reading this. I hope you have a wonderful day :)
 If you have any question, you can contact me via mail: liljeblad.simon@gmail.com
